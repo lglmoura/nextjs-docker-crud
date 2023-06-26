@@ -1,11 +1,10 @@
 This is a [Next.js](https://nextjs.org/) 
 
 Projeto Nextjs docker Crud
-Objetivo
-Uma aplicação escrita em NodeJS e tem como objetivo ser uma aplicação de exemplo pra trabalhar com o uso de containers.
 
-Configuração
-Pra configurar a aplicação, é preciso ter um banco de dados Postgre e pra definir o acesso ao banco, configure as variáveis de ambiente abaixo:
+Objetivo
+
+Uma aplicação escrita em NodeJS e tem como objetivo ser uma aplicação de exemplo pra trabalhar com o uso de containers.
 
 
 ## Getting Started
