@@ -18,13 +18,17 @@ services:
     networks:
       - pullstack-network
   app:
-    image: lglmoura/nextjs-docker:v4
+    
     ports:
       - ${APP_PORT}:3000
     networks:
       - pullstack-network
     depends_on:
       - pgsql
+
+    build:
+      context: .
+      dockerfile: Dockerfile
 
   pgadmin4:
     image: dpage/pgadmin4
